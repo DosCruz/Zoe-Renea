@@ -22,7 +22,7 @@
 }
 
 html {
-    background-image: url(./images/danielle2Blur.jpg);
+    background-image: url(./images/ZoeBlur.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -37,7 +37,7 @@ body {
 }
 
 .body {
-    background-image: url(./images/danielle2.heic);
+    background-image: url(./images/Zoe.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -69,78 +69,48 @@ body {
     );
 }
 
-h1 {
-    margin-bottom: 0;
-}
+
 
 p {
     margin: 15px 0 5px;
 }
 
-.ofButton {
+.bigButton {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 0;
     width: 70%;
     margin-left: 15%;
-    background-color: #68564F;
-    border: 1px solid #68564F;
+    background-color: #17532F;
+    border: 1px solid #17532F;
     border-radius: 10px;
     color: #f5f6f9;
 }
 
-.ofButton:hover {
-    color: #68564F;
+.bigButton:hover {
+    color: #17532F;
     background-color: #f5f6f9;
-    border: 1px solid #68564F;
+    border: 1px solid #17532F;
 }
 
-#of {
+#big {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
 
-.arrow {
-    font-size: 2rem;
-    display: inline-block;
-    animation: arrowMove 0.8s ease-in-out infinite alternate;
-    padding-bottom: 5px;
-}
-
-@keyframes arrowMove {
-    from {
-        transform: translateX(-4px);
-    }
-    to {
-        transform: translateX(4px);
-    }
-}
-
-.arrow:last-child {
-    animation-direction: alternate-reverse;
-}
-
 h2 {
     margin: 0 10px;
 }
 
-.socialsMain {
+.socials {
     display: flex;
     justify-content: space-evenly;
     max-width: 80%;
     margin-left: 10%;
     margin-top: 10px;
-    padding-bottom: 10px;
-}
-
-.socialsSub {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 30%;
-    margin-left: 35%;
-    margin-top: 10px;
+    margin-bottom: 10px;
     padding-bottom: 10px;
 }
 
