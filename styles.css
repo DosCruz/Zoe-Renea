@@ -22,7 +22,7 @@
 }
 
 html {
-    background-image: url(./images/ZoeBlur.png);
+    background-image: url(./images/Zoe2Blur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -37,7 +37,7 @@ body {
 }
 
 .body {
-    background-image: url(./images/Zoe.png);
+    background-image: url(./images/Zoe2.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
